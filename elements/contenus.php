@@ -41,6 +41,7 @@ if (file_exists("myfile.txt")){
 <div class="divIput">
 <form action="index.php" method="POST">
 <input type="text" id="list" name="list">
+<button>ajouter</button>
 </form>
 <form method="GET" action="index.php?delete=1">
 <button name="suprimer" type="submit">Suprimer</button>
